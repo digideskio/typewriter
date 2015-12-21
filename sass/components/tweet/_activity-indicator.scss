@@ -22,4 +22,9 @@
     top: -5px;
     left: -10px;
   }
+
+  .stream-item[data-key^="list_member_added"] & {
+    background-color: #000;
+    top: 3.45px;
+  }
 }
