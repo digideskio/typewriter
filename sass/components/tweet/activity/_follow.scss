@@ -1,0 +1,9 @@
+.stream-item[data-key^="follow"] {
+  .account-summary {
+    display: none;
+  }
+
+  .activity-header .align-below-header {
+    top: 0px;
+  }
+}
