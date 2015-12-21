@@ -1,0 +1,52 @@
+.compose {
+  background-color: $compose-background;
+
+  &-header {
+    border-bottom-color: $compose-border;
+  }
+
+  &-account {
+    background-color: $compose-account-background;
+  }
+
+  &-text-title {
+    color: $compose-positive-text;
+  }
+
+  &-reply-tweet {
+    background-color: $compose-positive-text;
+  }
+
+  .btn-on-blue {
+    background-color: $compose-button;
+
+    &:hover {
+      background-color: $compose-button-hover;
+    }
+  }
+
+  .btn-positive {
+    background-color: $compose-positive;
+
+    &.is-disabled {
+      background-color: $compose-positive-disabled;
+      color: $compose-positive-text;
+    }
+  }
+}
+
+.attach-compose-buttons .tweet-button, .btn-compose {
+  background-color: $compose-background;
+
+  &:hover {
+    background-color: $compose-button;
+  }
+
+  &.is-hidden {
+    background-color: $compose-background;
+
+    &:hover {
+      background-color: $compose-button;
+    }
+  }
+}
