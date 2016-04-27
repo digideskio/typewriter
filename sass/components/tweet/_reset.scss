@@ -1,3 +1,11 @@
 .stream-item {
     border-bottom: none;
 }
+
+a[rel="viewDetails"] {
+    display: none;
+}
+
+.tweet-footer {
+    float: right !important;
+}
