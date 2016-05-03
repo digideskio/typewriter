@@ -8,23 +8,23 @@
   border-bottom-right-radius: 4px;
 
   .stream-item[data-key^="retweet"] & {
-    background-color: #19cf86;
+    background-color: $color-retweet;
   }
 
   .stream-item[data-key^="favorite"] & {
-    background-color: #be1931;
+    background-color: $color-favorite;
     color: #fff;
     top: 10.5px;
   }
 
   .stream-item[data-key^="follow"] & {
-    background-color: #00aced;
+    background-color: $color-follow;
     top: -5px;
     left: -10px;
   }
 
   .stream-item[data-key^="list_member_added"] & {
-    background-color: #000;
+    background-color: $color-list;
     top: 3.45px;
   }
 }
