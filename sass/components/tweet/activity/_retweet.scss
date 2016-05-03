@@ -1,8 +1,19 @@
 .stream-item[data-key^="retweet"] {
+  animation: retweet-flash 350ms ease-in-out 0s 1;
+
   .tweet-text {
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+}
+
+@keyframes retweet-flash {
+    0% {
+        background-color: lighten($color-retweet, 38);
+    }
+    100% {
+        background-color: #fff;
+    }
 }
